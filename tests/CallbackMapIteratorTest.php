@@ -20,7 +20,7 @@ class CallbackMapIteratorTest extends \PHPUnit_Framework_TestCase {
 
     public function dataProvider () {
 
-        $csvIt = new CSVFileIterator('testdata.csv');
+        $csvIt = new CSVFileIterator('data/testdata.csv');
 
         return new CallbackMapIterator($csvIt, function ($array) {
 

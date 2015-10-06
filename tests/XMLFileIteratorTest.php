@@ -21,7 +21,7 @@ class XMLFileIteratorTest extends \PHPUnit_Framework_TestCase {
 
         $parser = new XMLFileIterator('item', $mapping);
 
-        $parser->loadXmlFile('testdata.xml');
+        $parser->loadXmlFile('data/testdata.xml');
 
         while ($parser->valid()) {
 
