@@ -1,6 +1,6 @@
 <?php
 
-namespace NielsHoppe\PHPCSS\Tests;
+namespace NielsHoppe\Goodies;
 
 class CSVFileIterator implements \Iterator {
 
