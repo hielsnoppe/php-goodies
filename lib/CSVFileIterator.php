@@ -2,6 +2,11 @@
 
 namespace NielsHoppe\Goodies;
 
+/**
+ * Shamelessly copied from
+ * @see https://phpunit.de/manual/current/en/writing-tests-for-phpunit.html#writing-tests-for-phpunit.data-providers.examples.CsvFileIterator.php
+ */
+
 class CSVFileIterator implements \Iterator {
 
     protected $file;

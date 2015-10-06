@@ -5,7 +5,7 @@ namespace NielsHoppe\Goodies;
 use \NielsHoppe\Goodies\CSVFileIterator;
 use \NielsHoppe\Goodies\CallbackMapIterator;
 
-class MainTest extends \PHPUnit_Framework_TestCase {
+class CallbackMapIteratorTest extends \PHPUnit_Framework_TestCase {
 
     /**
      * @dataProvider dataProvider
@@ -13,7 +13,7 @@ class MainTest extends \PHPUnit_Framework_TestCase {
 
     public function testMain ($first, $second) {
 
-        var_dump(func_get_args());
+        //var_dump(func_get_args());
 
         $this->assertEquals(true, true);
     }
