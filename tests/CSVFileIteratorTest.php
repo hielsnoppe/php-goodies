@@ -3,7 +3,6 @@
 namespace NielsHoppe\Goodies;
 
 use \NielsHoppe\Goodies\CSVFileIterator;
-use \NielsHoppe\Goodies\CallbackMapIterator;
 
 class CSVFileIteratorTest extends \PHPUnit_Framework_TestCase {
 
