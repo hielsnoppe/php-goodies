@@ -24,7 +24,7 @@ class CallbackMapIteratorTest extends \PHPUnit_Framework_TestCase {
 
         return new CallbackMapIterator($csvIt, function ($array) {
 
-            return array($array[0], $array[2]);
+            return array($array[1], $array[0]);
         });
     }
 }
