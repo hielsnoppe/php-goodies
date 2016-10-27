@@ -1,0 +1,17 @@
+name: TemplateTest
+description: Bla bla bla
+tests:
+  testTest:
+    dataProvider:
+    - file: assets/tests/template-normal-complete.json
+    - file: assets/tests/template-normal-minimal.json
+    - file: assets/tests/template-html-complete.json
+    - file: assets/tests/template-html-minimal.json
+    - file: assets/tests/template-text-complete.json
+    - file: assets/tests/template-text-minimal.json
+    #- file: assets/tests/template-normal-complete.yaml
+    #- file: assets/tests/template-normal-minimal.yaml
+    #- file: assets/tests/template-html-complete.yaml
+    #- file: assets/tests/template-html-minimal.yaml
+    #- file: assets/tests/template-text-complete.yaml
+    #- file: assets/tests/template-text-minimal.yaml

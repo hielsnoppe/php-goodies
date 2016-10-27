@@ -26,5 +26,8 @@
     },
     "scripts": {
         "test": "phpunit --bootstrap vendor/autoload.php tests"
+    },
+    "require": {
+        "doctrine/annotations": "^1.2"
     }
 }
