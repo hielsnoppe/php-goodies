@@ -18,6 +18,11 @@ class ExampleObjectTest extends \PHPUnit_Framework_TestCase {
             'isExample' => true, // bool,
             'ducks' => array(
                 'Huey', 'Dewey', 'Louie'
+            ),
+            'words' => array(
+                'Huey' => 'Tick',
+                'Dewey' => 'Trick',
+                'Louie' => 'Track'
             )
         );
 

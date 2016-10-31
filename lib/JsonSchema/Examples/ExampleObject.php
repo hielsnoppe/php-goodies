@@ -31,6 +31,11 @@ class ExampleObject implements \NielsHoppe\Goodies\JsonSchema\Types\JsonObject {
      */
     protected $ducks;
 
+    /**
+     * ExampleDictionary
+     */
+    protected $words;
+
     public function __construct () {
 
         $this->name = new ExampleString('Example');
@@ -38,5 +43,10 @@ class ExampleObject implements \NielsHoppe\Goodies\JsonSchema\Types\JsonObject {
         $this->pi = new ExampleNumber(3.1415);
         $this->isExample = new ExampleBoolean(true);
         $this->ducks = new ExampleList(array('Huey', 'Dewey', 'Louie'));
+        $this->words = new ExampleDictionary(array(
+            'Huey' => 'Tick',
+            'Dewey' => 'Trick',
+            'Louie' => 'Track'
+        ));
     }
 }

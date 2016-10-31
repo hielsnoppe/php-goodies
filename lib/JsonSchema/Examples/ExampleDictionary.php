@@ -6,27 +6,8 @@ class ExampleDictionary implements \NielsHoppe\Goodies\JsonSchema\Types\JsonDict
 
     use \NielsHoppe\Goodies\JsonSchema\Traits\DictionaryTrait;
 
-    protected static $properties = array(
-        'foo' => array(
-            'property' => 'foo',
-            'type' => 'string'
-        ),
-        'bar' => array(
-            'method' => 'getBar',
-            'type' => 'number'
-        )
-    );
+    public function __construct ($items) {
 
-    protected $foo;
-    protected $bar;
-
-    public function __construct ($foo) {
-
-        $this->foo = $foo;
-    }
-
-    public function getBar () {
-
-        return 42;
+        $this->items = $items;
     }
 }
