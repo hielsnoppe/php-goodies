@@ -1,11 +1,32 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema;
+namespace NielsHoppe\Goodies\JsonSchema\Traits;
+
+use \NielsHoppe\Goodies\JsonSchema\Types\JsonType;
 
 trait ObjectTrait {
 
-    protected static $properties;
+    //protected static $properties;
 
+    /**
+     * @return mixed[]
+     */
+    public function jsonSerialize () {
+
+        $result = array();
+
+        foreach ($this as $property => $value) {
+
+            if ($value instanceof \JsonSerializable) {
+
+                $result[$property] = $value->jsonSerialize();
+            }
+        }
+
+        return $result;
+    }
+
+    /*
     public function jsonSerialize () {
 
         $result = array();
@@ -24,4 +45,5 @@ trait ObjectTrait {
 
         return $result;
     }
+    */
 }

@@ -4,7 +4,7 @@ namespace NielsHoppe\Goodies\JsonSchema\Examples;
 
 class ExampleDictionary implements \NielsHoppe\Goodies\JsonSchema\Types\JsonDictionary {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\AssociativeArrayTrait;
+    use \NielsHoppe\Goodies\JsonSchema\Traits\DictionaryTrait;
 
     protected static $properties = array(
         'foo' => array(

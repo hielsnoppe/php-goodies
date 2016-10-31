@@ -2,31 +2,12 @@
 
 namespace NielsHoppe\Goodies\JsonSchema\Examples;
 
-class Example implements NielsHoppe\Goodies\JsonSchema\Types\AssociativeArray {
+class ExampleList implements \NielsHoppe\Goodies\JsonSchema\Types\JsonArray {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\AssociativeArrayTrait;
+    use \NielsHoppe\Goodies\JsonSchema\Traits\ListTrait;
 
-    protected static $properties = array(
-        'foo' => array(
-            'property' => 'foo',
-            'type' => 'string'
-        ),
-        'bar' => array(
-            'method' => 'getBar',
-            'type' => 'number'
-        )
-    );
+    public function __construct ($items) {
 
-    protected $foo;
-    protected $bar;
-
-    public function __construct ($foo) {
-
-        $this->foo = $foo;
-    }
-
-    public function getBar () {
-
-        return 42;
+        $this->items = $items;
     }
 }

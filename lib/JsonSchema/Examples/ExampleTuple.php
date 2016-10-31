@@ -2,7 +2,7 @@
 
 namespace NielsHoppe\Goodies\JsonSchema\Examples;
 
-class Example implements NielsHoppe\Goodies\JsonSchema\Types\AssociativeArray {
+class ExampleTuple implements NielsHoppe\Goodies\JsonSchema\Types\AssociativeArray {
 
     use \NielsHoppe\Goodies\JsonSchema\Traits\AssociativeArrayTrait;
 

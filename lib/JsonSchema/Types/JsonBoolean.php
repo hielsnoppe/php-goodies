@@ -2,5 +2,5 @@
 
 namespace NielsHoppe\Goodies\JsonSchema\Types;
 
-interface JsonObject extends \JsonSerializable {
+interface JsonBoolean extends \JsonSerializable {
 }

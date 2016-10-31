@@ -1,6 +1,6 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema;
+namespace NielsHoppe\Goodies\JsonSchema\Traits;
 
 trait ListTrait {
 
