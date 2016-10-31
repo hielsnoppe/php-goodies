@@ -1,18 +1,10 @@
 <?xml version="1.0" ?>
-<collection>
-    <item>
-        <v1>foo</v1>
-        <v2>bar</v2>
-        <v3>baz</v3>
-    </item>
-    <item>
-        <v1>foo</v1>
-        <v2>bar</v2>
-        <v3>baz</v3>
-    </item>
-    <item>
-        <v1>foo</v1>
-        <v2>bar</v2>
-        <v3>baz</v3>
-    </item>
-</collection>
+<testdata>
+    <dataset id="">
+        <parameters>
+            <parameter type="string">foo</parameter>
+        </parameters>
+        <result type=""></result>
+        <exception type="">baz</exception>
+    </dataset>
+</testdata>

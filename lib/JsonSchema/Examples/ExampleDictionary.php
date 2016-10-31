@@ -1,10 +1,10 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema;
+namespace NielsHoppe\Goodies\JsonSchema\Examples;
 
-class Example implements \JsonSerializable {
+class ExampleDictionary implements \NielsHoppe\Goodies\JsonSchema\Types\JsonDictionary {
 
-    use \NielsHoppe\Goodies\JsonSchema\JsonSerializable;
+    use \NielsHoppe\Goodies\JsonSchema\Traits\AssociativeArrayTrait;
 
     protected static $properties = array(
         'foo' => array(

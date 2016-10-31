@@ -2,7 +2,7 @@
 
 namespace NielsHoppe\Goodies\JsonSchema;
 
-trait JsonSerializable {
+trait ObjectTrait {
 
     protected static $properties;
 
