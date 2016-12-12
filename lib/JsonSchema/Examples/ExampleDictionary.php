@@ -1,10 +1,10 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Examples;
+namespace NielsHoppe\JSON\Examples;
 
-class ExampleDictionary implements \NielsHoppe\Goodies\JsonSchema\Types\JsonDictionary {
+class ExampleDictionary implements \NielsHoppe\JSON\Types\JsonDictionary {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\DictionaryTrait;
+    use \NielsHoppe\JSON\Traits\DictionaryTrait;
 
     public function __construct ($items) {
 

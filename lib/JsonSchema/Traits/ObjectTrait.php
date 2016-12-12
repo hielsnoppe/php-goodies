@@ -1,8 +1,8 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Traits;
+namespace NielsHoppe\JSON\Traits;
 
-use \NielsHoppe\Goodies\JsonSchema\Types\JsonType;
+use \NielsHoppe\JSON\Types\JsonType;
 
 trait ObjectTrait {
 

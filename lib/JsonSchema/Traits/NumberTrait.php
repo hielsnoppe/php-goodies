@@ -1,6 +1,6 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Traits;
+namespace NielsHoppe\JSON\Traits;
 
 trait NumberTrait {
 

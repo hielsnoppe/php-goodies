@@ -2,7 +2,7 @@
 
 namespace NielsHoppe\Goodies;
 
-use \NielsHoppe\Goodies\JsonSchema\Examples\ExampleObject;
+use \NielsHoppe\JSON\Examples\ExampleObject;
 
 class ExampleObjectTest extends \PHPUnit_Framework_TestCase {
 

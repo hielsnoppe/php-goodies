@@ -1,10 +1,10 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Examples;
+namespace NielsHoppe\JSON\Examples;
 
-class ExampleList implements NielsHoppe\Goodies\JsonSchema\Types\JsonList {
+class ExampleList implements NielsHoppe\JSON\Types\JsonList {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\AssociativeArrayTrait;
+    use \NielsHoppe\JSON\Traits\AssociativeArrayTrait;
 
     protected static $properties = array(
         'foo' => array(

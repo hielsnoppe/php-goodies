@@ -1,10 +1,10 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Examples;
+namespace NielsHoppe\JSON\Examples;
 
-class ExampleObject implements \NielsHoppe\Goodies\JsonSchema\Types\JsonObject {
+class ExampleObject implements \NielsHoppe\JSON\Types\JsonObject {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\ObjectTrait;
+    use \NielsHoppe\JSON\Traits\ObjectTrait;
 
     /**
      * @var ExampleString

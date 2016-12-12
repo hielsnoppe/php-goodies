@@ -1,6 +1,6 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Types;
+namespace NielsHoppe\JSON\Types;
 
 interface JsonBoolean extends \JsonSerializable {
 }

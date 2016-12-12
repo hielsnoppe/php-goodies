@@ -1,10 +1,10 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Examples;
+namespace NielsHoppe\JSON\Examples;
 
-class ExampleString implements \NielsHoppe\Goodies\JsonSchema\Types\JsonString {
+class ExampleString implements \NielsHoppe\JSON\Types\JsonString {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\StringTrait;
+    use \NielsHoppe\JSON\Traits\StringTrait;
 
     public function __construct ($value) {
 

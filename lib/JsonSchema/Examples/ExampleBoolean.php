@@ -1,10 +1,10 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Examples;
+namespace NielsHoppe\JSON\Examples;
 
-class ExampleBoolean implements \NielsHoppe\Goodies\JsonSchema\Types\JsonBoolean {
+class ExampleBoolean implements \NielsHoppe\JSON\Types\JsonBoolean {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\BooleanTrait;
+    use \NielsHoppe\JSON\Traits\BooleanTrait;
 
     public function __construct ($value) {
 

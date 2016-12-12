@@ -1,10 +1,10 @@
 <?php
 
-namespace NielsHoppe\Goodies\JsonSchema\Examples;
+namespace NielsHoppe\JSON\Examples;
 
-class ExampleList implements \NielsHoppe\Goodies\JsonSchema\Types\JsonArray {
+class ExampleList implements \NielsHoppe\JSON\Types\JsonArray {
 
-    use \NielsHoppe\Goodies\JsonSchema\Traits\ListTrait;
+    use \NielsHoppe\JSON\Traits\ListTrait;
 
     public function __construct ($items) {
 
